@@ -22,8 +22,8 @@
 .navbar {
   max-width: 1280px;
   margin: auto;
-  mar gin-right: 100px;
-  mar gin-left: 100px;
+  margin-right: 100px;
+  margin-left: 100px;
   display: flex; /*сделали блок гибким*/
   justify-content: space-between; /*расставили эллементы по краям*/
   align-items: center;
@@ -84,6 +84,9 @@
 .home-image path:hover {
   opacity: 1;
 }
+path.current-floor {
+  opacity: 1;
+}
 .counter-group {
   display: flex;
   flex-direction: column;
@@ -117,5 +120,4 @@
   border: none;
   padding: 16px 36px;
   cursor: pointer;
-  
 }
